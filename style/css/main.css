@@ -1,0 +1,59 @@
+.btn__group button {
+  background-color: #29A8FF;
+  border: 1px solid green;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left; }
+
+/* prevent double border */
+.btn__group button:not(:last-child) {
+  border-right: none; }
+
+.btn__group button:after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.btn__group button:hover {
+  background-color: #3e8e41; }
+
+/* Group Button Style End Here */
+/* Round Button Style Start Here */
+.btn__round {
+  padding: 5px 5px;
+  border-radius: 50%;
+  border: 1px solid green;
+  color: white;
+  background-color: #29A8FF; }
+
+.btn__round:hover {
+  background-color: #3e8e41; }
+
+/* Box Button Style Start Here */
+.btn__box {
+  padding: 5px 5px;
+  border-radius: 10%;
+  border: 1px solid green;
+  background-color: #29A8FF; }
+
+.btn__box:hover {
+  background-color: #3e8e41; }
+
+/* Button Primary*/
+.btn__primary {
+  padding: 5px 5px;
+  border-radius: 10%;
+  border: 1px solid green;
+  color: white;
+  background-color: blue; }
+
+/* Button Danger*/
+.btn__danger {
+  padding: 5px 5px;
+  border-radius: 10%;
+  border: 1px solid green;
+  color: white;
+  background-color: red; }
+
+/*# sourceMappingURL=main.css.map */
